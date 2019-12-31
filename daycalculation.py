@@ -5,5 +5,5 @@ def findDay(date):
     born = datetime.datetime.strptime(date, '%d %m %Y').weekday() 
     return (calendar.day_name[born]) 
   
-date = input("Enter your day: ")
+date = input("Enter your date: ")
 print(findDay(date)) 
